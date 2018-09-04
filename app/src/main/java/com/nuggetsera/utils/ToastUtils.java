@@ -64,6 +64,7 @@ public class ToastUtils {
     public static void showShort(Context context, CharSequence message) {
         if (SHOW_DEBUG)
             Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+
     }
 
     /**
