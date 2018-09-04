@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nuggetsera">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 读取手机信息权限 -->
+    <application
+        android:name=".base.App"
+        android:allowBackup="true"
+        android:icon="@drawable/login_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.main.MainActivity" />
+        <activity android:name=".activity.start.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.login.LoginActivity" />
+        <activity android:name=".activity.registered.RegisteredActivity" />
+        <activity android:name=".activity.registered.next.RegisteredNextActivity" />
+        <activity android:name=".activity.changepassword.ChangePasswordActivity" />
+        <activity android:name=".activity.changepassword.two.ChangePasswordTwoActivity" />
+        <activity android:name=".activity.my.MyActivity" />
+        <activity android:name=".activity.invitefriend.InviteFriendActivity" />
+        <activity android:name=".activity.mygoldpower.MyGoldPowerAct" />
+        <activity android:name=".activity.persenalauthent.PersenalAuthentAct"></activity>
+        <activity android:name=".activity.takephoto.TakePhotoActivity"/>
+    </application>
+
+</manifest>

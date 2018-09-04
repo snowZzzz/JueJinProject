@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 渐变色边框Textview使用 -->
+    <declare-styleable name="GradientBtnLayout">
+        <attr name="btnText" format="string"/>
+    </declare-styleable>
+
+    <!-- 渐变色Textview使用 -->
+    <declare-styleable name="GradientColorTextView">
+        <attr name="beginColor" format="color"/>
+        <attr name="centerColor" format="color"/>
+        <attr name="endColor" format="color"/>
+    </declare-styleable>
+</resources>

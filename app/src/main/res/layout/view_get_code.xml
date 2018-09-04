@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.nuggetsera.widget.UnderLineEditText
+        android:id="@+id/fix_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:cursorVisible="false"
+        android:textColorHint="#414244"
+        android:textSize="16sp"
+        android:theme="@style/MyEditText"
+        android:hint="请输入验证码"
+        android:textColor="@android:color/white"/>
+
+    <com.nuggetsera.widget.GradientColorTextView
+        android:id="@+id/fix_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        app:beginColor="@color/color_E8A247"
+        app:centerColor="@color/color_F08D47"
+        app:endColor="@color/color_F06A44"
+        android:enabled="true"
+        android:gravity="center"
+        android:text="获取验证码"
+        android:textSize="14sp"
+        android:textColor="#f4dd66"
+        android:layout_marginLeft="5dp"
+        />
+
+
+</RelativeLayout>

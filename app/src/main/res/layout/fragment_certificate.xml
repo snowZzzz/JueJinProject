@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F4F4F4"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.invitefriend.InviteFriendActivity">
+
+    <TextView
+        android:id="@+id/tv_top_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_14"
+        android:layout_marginRight="@dimen/dp_14"
+        android:layout_marginTop="@dimen/dp_25"
+        android:text="请确保您使用本人的真实身份进行验证，我们会保护您的个人信息安全"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/sp_13" />
+
+    <LinearLayout
+        android:id="@+id/layout_identity_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_top_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_30"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_identity_one"
+            android:layout_width="@dimen/dp_158"
+            android:layout_height="@dimen/dp_101"
+            android:background="@mipmap/identity_upload"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            android:textColor="@color/color_999999"
+            android:text="上传手持证件照" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_identity_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_identity_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_15"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_top_desc"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_identity_two"
+                android:layout_width="@dimen/dp_158"
+                android:layout_height="@dimen/dp_101"
+                android:background="@mipmap/identity_upload_two"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:textColor="@color/color_999999"
+                android:text="上传证件正面" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_top_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_identity_three"
+                android:layout_width="@dimen/dp_158"
+                android:layout_height="@dimen/dp_101"
+                android:background="@mipmap/identity_upload_three"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:textColor="@color/color_999999"
+                android:text="上传证件反面" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.nuggetsera.widget.GradientButton
+        android:id="@+id/btn_copy"
+        android:layout_below="@+id/layout_invite_code"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:gravity="center"
+        android:textSize="@dimen/sp_18"
+        android:text="提交"/>
+</RelativeLayout>

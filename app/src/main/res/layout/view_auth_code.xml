@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <EditText
+        android:id="@+id/auth_und_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:hint="输入验证码"
+        android:cursorVisible="false"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/auth_tv_text"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="获取验证码"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:background="@color/btn_bg_color"/>
+
+</RelativeLayout>
