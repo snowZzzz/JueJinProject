@@ -33,4 +33,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     implementation project(':goldlibrary')
     implementation 'com.jph.takephoto:takephoto_library:4.0.3'
+    compile project(path: ':dialoglibrary')
+    implementation project(':dialoglibrary')
+    implementation project(':updateapplibrary')
 }

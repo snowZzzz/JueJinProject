@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JueJinProject.iml" filepath="$PROJECT_DIR$/JueJinProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialoglibrary/dialoglibrary.iml" filepath="$PROJECT_DIR$/dialoglibrary/dialoglibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldlibrary/goldlibrary.iml" filepath="$PROJECT_DIR$/goldlibrary/goldlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/juejin.iml" filepath="$PROJECT_DIR$/juejin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updateapplibrary/updateapplibrary.iml" filepath="$PROJECT_DIR$/updateapplibrary/updateapplibrary.iml" />
     </modules>
   </component>
 </project>

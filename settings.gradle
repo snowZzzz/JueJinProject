@@ -1,1 +1,1 @@
-include ':app', ':goldlibrary'
+include ':app', ':goldlibrary', ':dialoglibrary', ':updateapplibrary'
